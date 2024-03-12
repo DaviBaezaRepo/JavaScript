@@ -42,12 +42,16 @@
 // }
 // parametros(1,5,3,4,5);
 
-// let cara = 1;
-// cruz = 0;
-// function random () {
-//     return math.round(math.random(cara,cruz))
-// }
 
-// console.log(random);
+function random () {
+    let moneda = Math.round(Math.random());
+    if(moneda){
+        console.log("Te ha salido cara");
+    }else{
+        console.log("Te ha salido cruz");
+    }
+}
+
+random();
 
 
