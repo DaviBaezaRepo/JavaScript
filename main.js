@@ -1,14 +1,14 @@
-// Ejercicio 1
+//! Ejercicio 1
 // let nombre = "David";
 // alert(nombre);
 
 
 
-//Ejercicio 2 
+//! Ejercicio 2 
 //let nombre = prompt("Introduce tu nombre" );
 //alert(nombre);
 
-// Ejercicio 1.1
+//! Ejercicio 1.1
 // let nombre;
 // nombre = "David";
 // console.log(typeof nombre);
@@ -19,7 +19,7 @@
 // }
 // console.log(nombre);
 
-//Ejercicio 2 return
+//! Ejercicio 2 return
 
 // let nombreyapellido = (name,surname) => {
 //     name = ("David");
@@ -28,21 +28,21 @@
 // } 
 // console.log(nombreyapellido());
 
-//Ejercicio Boolean 
+//! Ejercicio Boolean 
 // function nombre () {
 //     nombre = false;
 //         console.log(!nombre);
 // }
 // nombre ();
 
-//Ejercicio ForEach funcion dentro de una funcion 
+//! Ejercicio ForEach funcion dentro de una funcion 
 
 // function parametros(...numbers){
 //     numbers.forEach(number => console.log(numbers));
 // }
 // parametros(1,5,3,4,5);
 
-// Ejercicio Cara o cruz
+//! Ejercicio Cara o cruz
 // function random () {
 //     let moneda = Math.round(Math.random());
 //     if(moneda){
@@ -54,14 +54,14 @@
 
 // random();
 
-// Ejercicio funcion suma con return 
+//! Ejercicio funcion suma con return 
 
 // function suma (param1,param2,param3){
 //     return (param1 + param2 + param3);
 // }
 // console.log(suma(6, 14, 3));
 
-// Ejercicio nombre y apellidos
+//! Ejercicio nombre y apellidos
 // function nomcompleto(nombre,apellido1,apellido2){
 //     nombre = "David";
 //     apellido1 = "Baeza";
@@ -71,7 +71,7 @@
 // nomcompleto();
 
 
-// Ejercicio cual es el numero mayor
+//! Ejercicio cual es el numero mayor
 // function numeromayor (num1,num2){
 //     if(num1 > num2){
 //         console.log(num1 + " este numero es mayor")
@@ -81,7 +81,7 @@
 // }
 // numeromayor(3,2);
 
-// Ejercicio meses con switch
+//! Ejercicio meses con switch
 
 // let mes = (7);
 // switch (mes){
@@ -123,7 +123,7 @@
 //         break;
 // }
 
-//Ejercicio switch del uno al cinco
+//!Ejercicio switch del uno al cinco
 
 // let numero = ("6")
 
@@ -149,7 +149,7 @@
 // }
 
 
-//Ejercicio Math random
+//!Ejercicio Math random
 
 // function random(){
 //     let numero = Math.round(Math.random());
@@ -157,7 +157,7 @@
 // }
 // random();
 
-//Ejercicio redondear numero pie
+//!Ejercicio redondear numero pie
 
 // function redondeo(){
 //     console.log(Math.round(Math.PI));
@@ -166,7 +166,7 @@
 // redondeo();
 
 
-//Ejercicio substituir letras a y o
+//!Ejercicio substituir letras a y o
 
 // function cambio(){
 //     let letra = "a";
@@ -174,7 +174,8 @@
 // }
 // cambio();
 
-//Ejercicio empieza por 
+//!Ejercicio empieza por 
+
 // function comprobacion(){
 //     let param1 = "academia";
 //     let param2 = "escuela";
@@ -184,7 +185,7 @@
 
 // comprobacion();
 
-//Ejercicio Hola 3 veces
+//!Ejercicio Hola 3 veces
 
 // let hola = "hola ";
 // function repetir(){
@@ -192,7 +193,7 @@
 // }
 // repetir();
 
-//Ejercicio i ❤ code 10 veces con for y while
+//!Ejercicio i ❤ code 10 veces con for y while
 
 // for (let love = 0; love < 10; love++){
 //     console.log("I ❤ code")
@@ -204,7 +205,7 @@
 //     love++;
 // }
 
-//Ejercicio array y foreach
+//!Ejercicio array y foreach
 
 // const array = ["a", "b", "c", "d", "e"];
 // array.forEach(item =>{
@@ -212,7 +213,7 @@
 // });
 
 
-//Ejercicio numero 5 hasta 0 
+//!Ejercicio numero 5 hasta 0 
 
 // let numero = 5;
 
@@ -222,7 +223,7 @@
 // }
 
 
-//Ejercicio If
+//!Ejercicio If
 
 // let numero = 1;
 // let i = 0;
@@ -239,19 +240,19 @@
 // } while (numero < 5);
 
 
-//Ejercicio cervezas por pizzas
+//!Ejercicio cervezas por pizzas
 
 // const array = ["🍔", "🌯", "🍣", "🍕", "🥗", "🥡", "🍙", "🍘", "🎂"];
 // console.log(array.fill("🍺", 4, array.length));
 
-//Encontrar a la piña 
+//!Encontrar a la piña 
 
 // const array = ["🍕", "🍕", "🍍", "🍕", "🍕"];
 // const find = array.find((element) => element === "🍍");
 // console.log(find);
 
 
-//Ejercicio de quitar la piña
+//!Ejercicio de quitar la piña
 
 const array = ["🍕", "🍕", "🍍", "🍕", "🍕"];
 
