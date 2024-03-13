@@ -203,3 +203,58 @@
 //     console.log("I ❤ code");
 //     love++;
 // }
+
+//Ejercicio array y foreach
+
+// const array = ["a", "b", "c", "d", "e"];
+// array.forEach(item =>{
+//     console.log(item);
+// });
+
+
+//Ejercicio numero 5 hasta 0 
+
+// let numero = 5;
+
+// while(numero > 0){
+//     console.log(numero);
+//     numero--;
+// }
+
+
+//Ejercicio If
+
+// let numero = 1;
+// let i = 0;
+
+// do {
+//     if(i === 0){
+//         i++;
+//         numero--;
+//         console.log(numero);
+//     }else{
+//         numero++;
+//         console.log(numero);
+//     }
+// } while (numero < 5);
+
+
+//Ejercicio cervezas por pizzas
+
+// const array = ["🍔", "🌯", "🍣", "🍕", "🥗", "🥡", "🍙", "🍘", "🎂"];
+// console.log(array.fill("🍺", 4, array.length));
+
+//Encontrar a la piña 
+
+// const array = ["🍕", "🍕", "🍍", "🍕", "🍕"];
+// const find = array.find((element) => element === "🍍");
+// console.log(find);
+
+
+//Ejercicio de quitar la piña
+
+const array = ["🍕", "🍕", "🍍", "🍕", "🍕"];
+
+array.splice(1)
+console.log(array);
+
